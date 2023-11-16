@@ -1,0 +1,59 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#text {
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: darkgray;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#controls {
+  padding: 8px;
+}
+
+button{
+  margin-top: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 6px;
+  border-radius: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#stats {
+  border-radius: 6px;
+  border: 1px black solid;
+  color: black;
+  padding: 8px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#monsterStats {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: none;
+  border: 1px black solid;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: darkred;
+}
